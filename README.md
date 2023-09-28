@@ -61,8 +61,9 @@ bacalhau get 286430e2-9011-4796-bf4b-98be5022399b
 less job-286430e2/stdout 
 bacalhau describe --json 286430e2-9011-4796-bf4b-98be5022399b >sierpinski.json
 jq . <sierpinski.json |less
-
 cat job-286430e2/stdout 
+````
+<code>
                *               
               * *              
              *   *             
@@ -79,9 +80,7 @@ cat job-286430e2/stdout
   * *     * *     * *     * *  
  *   *   *   *   *   *   *   * 
 * * * * * * * * * * * * * * * *
-
-````
-
+</code>
 
 ## Resources
 
