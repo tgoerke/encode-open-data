@@ -55,7 +55,7 @@ Bacalhau is language-agnostic, and supports Docker or WASM workloads. As long as
 bacalhau wasm run  target/wasm32-wasi/release/hello-rust.wasm 
 ````
 
-![view](videos/bacalhau-run.webm.mov)
+![view](video/bacalhau-run.webm.mov)
 
 ## Get results
 ````
