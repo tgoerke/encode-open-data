@@ -75,48 +75,5 @@ jq . <sierpinski.json |less
 - https://docs.lilypadnetwork.org/lilypad-v0-reference/creating-your-own-jobs
 
 
-cat >Pascal.cpp
-g++ Pascal.cpp -o Pascal
-./Pascal 
-echo 5|./Pascal 
-wasic++ Pascal.cpp -o Pascal.wasm
-cat /home/torsten/.bashrc
-g++ Pascal.cpp -o Pascal
-wasic++ Pascal.cpp -o Pascal.wasm
-cargo new hello-rust
-cd hello-rust/
-vi src/main.rs 
-cargo build --target=wasm32-wasi --release
-wasmtime target/wasm32-wasi/release/hello-rust.wasm
-
-git clone https://github.com/danmack/sierpinski-rs.git
-cd sierpinski-rs/
-ls
-cargo build
-cargo run
-ls
-xdg-open tri.png 
-cargo build --target=wasm32-was --release
-cargo build --target=wasm32-wasi --release
-ls
-wasmtime target/wasm32-wasi/release/triangle.wasm 
-cargo build --target=wasm32-wasi --release
-cargo run
-cp target/wasm32-wasi/release/triangle.wasm  .
-wasmtime triangle.wasm 
-bacalhau wasm validate triangle.wasm 
-bacalhau wasm run triangle.wasm 
-wasmtime triangle.wasm 
-cargo build --target=wasm32-wasi 
-wasmtime target/wasm32-wasi/release/triangle.wasm 
-cd ..
-
-git clone https://github.com/lerina/wasm-Sierpi-ski.git
-cd wasm-Sierpi-ski/
-cargo build
-cargo run
-./run.sh 
-less src/lib.rs 
-cd ..
 
 
